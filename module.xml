@@ -11,6 +11,7 @@
 	</description>
   	<more-info>https://sangomakb.atlassian.net/wiki/spaces/PG/pages/38896213/User+Control+Panel+UCP</more-info>
 	<changelog>
+		*17.50.8* 2026/11/06 Disable astman cache by default for UCP requests to improve performance on systems with many users
 		*17.50.7* 2026/04/07 Mis a jour depuis le depot officiel
 		*17.0.4.31* #976: fix(node)-pin mariadb to ~3.4.5 for CommonJS compatibility 
 		*17.0.4.30* FREEI-2501 ucp test and login urls handled along with custom ports 

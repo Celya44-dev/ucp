@@ -14,6 +14,9 @@ $restrict_mods = true; //Set to true so that we just load framework and the page
 //for error handling mode
 $bootstrap_settings['whoops_handler'] = 'JsonResponseHandler';
 
+// Disable astman cache (loading the entire astdb in memory on the first call to $astman->database_*())
+$bootstrap_defaults['astman_options']['cachemode'] = false;
+
 include '/etc/freepbx.conf';
 
 include(__DIR__.'/includes/bootstrap.php');
